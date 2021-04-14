@@ -1,0 +1,4 @@
+.main__view {
+  display: flex;
+  justify-content: space-around;
+}

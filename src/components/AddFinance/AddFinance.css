@@ -1,0 +1,24 @@
+.add__finance__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
+  min-height: 250px;
+  margin: 25px auto auto auto;
+  max-width: 824px;
+  padding: 15px;
+  background-color: white;
+}
+
+.fetching {
+  height: 70px;
+}
+
+.finance__form {
+  margin-top: 25px;
+}
+
+.finance__form__button {
+  border: none;
+  background: none;
+}

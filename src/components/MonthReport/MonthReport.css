@@ -1,0 +1,22 @@
+.month__report {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.income__statistics {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-top: 15px;
+  padding: 15px;
+}
+.monthly__report__container {
+  min-width: 450px;
+  background-color: white;
+}
+
+.monthly__report__header {
+  width: 100%;
+  background-color: white;
+}
