@@ -11,7 +11,6 @@ function Register(props) {
                 onSubmit={async values => {
                   let {name, password, income} = values;
                   if (isEmpty(name, password) && isValidincome(income) && isLength(10, name, password)){
-                      console.log(name, password, income, "REGISTER>>>>>>>");
                       props.auth({name: name, password: password, income: income});
                   };
                 }}

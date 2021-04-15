@@ -12,7 +12,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 function AddFinance(props) {
     
     const deleteDailyInfo = () => {
-        console.log("i delete");
         props.deleteDateCashInfo(props.id, props.date);
     }
     
@@ -29,9 +28,9 @@ function AddFinance(props) {
                  props.cashInfo
                  
                  ? 
-                    <div className="fetching">Змініть інформацію</div>
+                    <div className="fetching">Change Information</div>
                 : 
-                    <div className="fetching">Додайте інформацію</div>   
+                    <div className="fetching">Add some information</div>   
                 }
             </div>
             <div className="finance__form">
@@ -44,7 +43,7 @@ function AddFinance(props) {
                             props.updateDateCashInfo(props.id, props.date, data);
                         } else props.setDateCashInfo(props.id, data);
                     } else {
-                        alert("Не валідні дані");
+                        alert("Sorry, invalid information");
                     }
                 }} 
                 >

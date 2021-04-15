@@ -20,7 +20,7 @@ function CalendarComponent(props) {
     return (
         <div>
             <Calendar
-            calendarType="US"
+            locale="en"
             onChange={onSetValue}
             value={value}
             maxDate={new Date(2021, 11, 31, 0, 0, 0, 0)}
@@ -32,7 +32,6 @@ function CalendarComponent(props) {
 
 const mapStateToProps = (state) => {
     return {
-
     }
 }
 

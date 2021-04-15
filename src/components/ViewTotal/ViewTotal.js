@@ -25,7 +25,7 @@ function ViewTotal(props) {
                 Food<p>{props.info.food}</p>
                 Sport<p>{props.info.sport}</p>
             </div>
-            : "Інформації про цей день немає"
+            : "No information about this day"
             }
             </div>
             }   

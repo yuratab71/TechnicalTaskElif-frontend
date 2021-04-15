@@ -38,7 +38,7 @@ function MonthReport(props) {
         <div className="monthly__report__container">
             <div className="monthly__report__header">
               <h2>Monthly Report</h2>
-              <h3>{props.month ? props.month : "Вкажіть місяць"}</h3>
+              <h3>{props.month ? props.month : "Chose Month"}</h3>
             </div>
             {props.isFetching
             ?
@@ -66,7 +66,7 @@ function MonthReport(props) {
                     <MenuItem id="May" onClick={handleClose}>May</MenuItem>
                     <MenuItem id="Jun" onClick={handleClose}>June</MenuItem>
                     <MenuItem id="Jul" onClick={handleClose}>July</MenuItem>
-                    <MenuItem id="Aug" onClick={handleClose}>Augus</MenuItem>
+                    <MenuItem id="Aug" onClick={handleClose}>August</MenuItem>
                     <MenuItem id="Sep" onClick={handleClose}>September</MenuItem>
                     <MenuItem id="Oct" onClick={handleClose}>October</MenuItem>
                     <MenuItem id="Nov" onClick={handleClose}>November</MenuItem>
