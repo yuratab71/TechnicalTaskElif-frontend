@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import "./MonthReport.css";
-import {Link} from "react-router-dom";
 import {connect} from "react-redux";
 import {setMonth, getMonthInfo} from "../../redux/reducer";
 import Button from '@material-ui/core/Button';
