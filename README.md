@@ -1,3 +1,9 @@
+Technical task from some IT company
+
+Front-end part of Budget-tracker: App for control you money spending
+
+
+
 #Use React.js
 
 
